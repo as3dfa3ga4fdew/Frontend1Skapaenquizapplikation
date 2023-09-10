@@ -1,0 +1,126 @@
+:root{
+    --sandstone: #F4CC70;
+    --burntorange: #DE7A22;
+    --orangesand:#E79B41;
+}
+
+.create-container{
+    flex: 1;
+
+    margin: 20px;
+    border-radius: 5px;
+    background-color: var(--sandstone);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+}
+
+/*items for create-container*/
+
+.create-quiz-item{
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: var(--burntorange);
+}
+
+.create-question-container{
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+#addquestion-button{
+    border: none;
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--burntorange);
+}
+
+#addquestion-button:hover{
+    background-color: var(--orangesand);
+}
+
+/*items for create-question-container*/
+
+.create-question-box{
+    display: flex;
+    flex-direction: column;
+
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: var(--burntorange);
+}   
+
+/*items for create-question-box*/
+
+.create-question-item-container{
+    flex-wrap: wrap;
+
+    display: flex;
+    flex-direction: row;
+}
+
+#addchoice-button{
+    border: none;
+
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--sandstone);
+}
+
+#addchoice-button:hover{
+    background-color: var(--orangesand);
+}
+
+/*items for create-question-item-container*/
+.create-question-item{
+    padding: 10px;
+}
+
+.create-choice-container{
+    flex-wrap: wrap;
+
+    display: flex;
+    flex-direction: row;
+}
+
+/*items for create-choice-container*/
+
+.create-choice-box{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--sandstone);
+}
+
+/*items for center-container*/
+
+.create-nav-container{
+
+    margin: 20px;
+
+    border-radius: 5px;
+    background-color: var(--sandstone);
+}
+
+.create-nav-container button{
+    border: none;
+
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: var(--burntorange)
+}
+
+.create-nav-container button:hover{
+    background-color: var(--orangesand);
+}

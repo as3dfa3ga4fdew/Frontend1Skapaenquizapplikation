@@ -1,0 +1,45 @@
+/*Radio button*/
+.radio-button-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.radio-button{
+    border: none;
+    margin: 10px;
+    padding: 20px;
+
+    border-radius: 5px;
+    background-color: var(--burntorange);
+}
+
+.radio-button-selected{
+    background-color: var(--orangesand);
+}
+
+.radio-button-disabled{
+    background-color: var(--orangesand) !important;
+}
+
+.radio-button-enabled{
+    background-color: var(--burntorange) !important;
+}
+
+.radio-button-enabled:hover{
+     background-color: var(--orangesand) !important;
+}
+
+.submit-radio-button-container{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.submit-radio-button-container button{
+    border: none;
+    margin: 10px;
+    padding: 20px;
+
+    border-radius: 5px;
+    background-color: var(--burntorange);
+}

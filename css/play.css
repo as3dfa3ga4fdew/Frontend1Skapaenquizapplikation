@@ -1,0 +1,70 @@
+:root{
+    --sandstone: #F4CC70;
+    --burntorange: #DE7A22;
+    --orangesand:#E79B41;
+}
+
+.play-container{
+    flex: 1;
+
+    margin: 20px;
+    border-radius: 5px;
+    background-color: var(--sandstone);
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.play-nav-container{
+    padding-left: 10px;
+}
+
+.play-nav-container #menu-button{
+    border: none;
+    margin: 10px;
+    padding: 10px;
+
+    border-radius: 5px;
+    background-color: var(--sandstone);
+}
+
+#menu-button:hover{
+    background-color: var(--orangesand);
+}
+
+.play-container .radio-button-container{
+    width: 100%;
+
+    flex-direction: row !important;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.play-container .radio-button{
+    width: 100%;
+}
+
+.play-question-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 950px)
+{
+    .play-container .radio-button-container{
+        width: 90%;
+        flex-direction: column !important;
+    }
+
+    .play-container .submit-radio-button-container{
+        width: 50%;
+    }
+}
